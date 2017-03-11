@@ -71,7 +71,7 @@ module ChatScript
     # first volley
     # user message is null (void string)
     #
-    def start( user: @defaultuser ) 
+    def start( user: @default_user ) 
       volley( '', user: user )
     end  
 
